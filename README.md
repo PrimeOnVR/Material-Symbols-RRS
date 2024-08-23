@@ -4,13 +4,11 @@ RRS Compatibility for Unity Material Symbols
 ## Installation
 
 Step 1 :
-Install [Unity Material Symbols](https://github.com/convalise/unity-material-symbols/releases/) by Convalise and import it into unity normally.
-![image](https://github.com/user-attachments/assets/6f517b69-6078-4a61-a0d6-df63d2193154)
-
-Step 2 :
 Grab the latest version of this addon from [Releases](https://github.com/PrimeOnVR/Unity-Material-Symbols-RRS-Compatibility/releases/) and import it into unity normally.
 
 Thats it for installation! Read Usage for info on using the addon.
+
+*note: as of now, the original [Unity Material Symbols](https://github.com/convalise/unity-material-symbols/releases/) gets preinstalled when you install this package :)*
 
 ## Usage
 
@@ -49,3 +47,15 @@ This RRS compatibility plugin simply takes UI and certain code from this unity p
 ### Do you plan to make this a standalone package?
 
 Maybe, but I am still quite new to writing Unity editor scripts so it might be a bit of time before this becomes its own standalone package.
+
+### Why can't I set the fill on the icon?
+
+Since this plugin takes stuff from MaterialSymbols, but doesnt have everything, if you would like to change between the filled and not filled variations of the font, please change the font on the text component.
+
+### The fonts don't fit the style of my game. Do you have more styles?
+
+Absolutely! Since both this project and Unity Material Symbols use [Google Icons](https://fonts.google.com/icons/), you can head over to there, download their font files, and replace the font on my RRS Prefab with a static font provided by Google.
+
+### Why is there no TextMeshPro support?
+
+Both me and the original package creator built the entire thing around legacy text, as it provides better performance and is easier to use for smaller, more lightweight solutions like this, and therefore, is what is used forthe
