@@ -1,5 +1,5 @@
 # Material Symbols RRS
-RRS Compatibility for Unity Material Symbols
+A modified version of Unity Material Symbols made for RRS development.
 
 ![image](https://github.com/user-attachments/assets/49d84b9a-75d7-43f3-abaa-30e3ce7e3b99)
 
