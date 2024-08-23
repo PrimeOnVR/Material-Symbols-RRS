@@ -57,4 +57,6 @@ Both me and the original package creator built the entire thing around legacy te
 
 ## Credits
 
+Unity Material Symbols
+
 https://github.com/convalise/unity-material-symbols
