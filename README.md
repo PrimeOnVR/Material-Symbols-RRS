@@ -40,14 +40,6 @@ As mentioned in Usage, this just sets data to a default unity component, and doe
 
 This is created by the original package, and since it uses a standalone script, will not function with Rec Room Studio properly.
 
-### Why do i need to install Unity Material Symbols alongside this addon?
-
-This RRS compatibility plugin simply takes UI and certain code from this unity package at this point, and will simply not work without it, as it links to references inside of it.
-
-### Do you plan to make this a standalone package?
-
-Maybe, but I am still quite new to writing Unity editor scripts so it might be a bit of time before this becomes its own standalone package.
-
 ### Why can't I set the fill on the icon?
 
 Since this plugin takes stuff from MaterialSymbols, but doesnt have everything, if you would like to change between the filled and not filled variations of the font, please change the font on the text component.
@@ -59,3 +51,7 @@ Absolutely! Since both this project and Unity Material Symbols use [Google Icons
 ### Why is there no TextMeshPro support?
 
 Both me and the original package creator built the entire thing around legacy text, as it provides better performance and is easier to use for smaller, more lightweight solutions like this, and therefore, is what is used forthe
+
+## Credits
+
+https://github.com/convalise/unity-material-symbols
