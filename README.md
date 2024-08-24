@@ -15,13 +15,11 @@ Thats it for installation! Read Usage for info on using the addon.
 
 ## Usage
 
-If you would like to use the MaterialSymbols RRS Compat addon, just right click on your hierarchy while in a canvas prefab, and click:
+If you would like to use Material Symbols, just right click on your hierarchy while in a canvas prefab, and click:
 
-`UI > Google > RRS Symbol`
+`UI > Google > RRS Symbol` in v1.0.0 or `UI > Material Symbol` in v2.0.0
 
 ![image](https://github.com/user-attachments/assets/b36f01a7-81fa-4c6f-8bd9-2c1c7daa0d5b)
-
-*NOTE: Material Symbol is an option added by the original package, you can safely ignore it as it is for use with base unity.*
 
 Once you have added a material symbol, you can use the script on the object to configure what icon you may want to use.
 
@@ -45,17 +43,9 @@ well just delete the `MaterialSymbols` and `MaterialSymbols RRS Compat` folder, 
 
 As mentioned in Usage, this just sets data to a default unity component, and doesnt act as its own standalone script.
 
-### What is Material Symbol, and why is it an option in my hierarchy?
-
-This is created by the original package, and since it uses a standalone script, will not function with Rec Room Studio properly.
-
 ### The fonts don't fit the style of my game. Do you have more styles?
 
 Absolutely! Since both this project and Unity Material Symbols use [Google Icons](https://fonts.google.com/icons/), you can head over to there, download their font files, and replace the font on my RRS Prefab with a static font provided by Google.
-
-### Why is there no TextMeshPro support?
-
-Both me and the original package creator built the entire thing around legacy text, as it provides better performance and is easier to use for smaller, more lightweight solutions like this, and therefore, is what is used forthe
 
 ## Credits
 
