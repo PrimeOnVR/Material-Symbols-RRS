@@ -27,11 +27,17 @@ Once you have added a material symbol, you can use the script on the object to c
 
 ![image](https://github.com/user-attachments/assets/6f44c2a2-a7e1-4e88-a3cb-5dd285d0327a)
 
-From my testing, after setting an icon, you can use this plugin normally in your RRS projects, and it should not complain about having a script, but if you are having issues, you can safely remove the Material Symbol Setter Util script from the object, as all the script does is input data into an existing Text component, and is not a standalone script (like the original Material Symbols package is)
+From my testing, after setting an icon, you can use this package normally in your RRS projects, and it should not complain about having a script, but if you are having issues, you can safely remove the Material Symbol Setter Util script from the object, as all the script does is input data into an existing Text component, and is not a standalone script (like the original Material Symbols package is)
 
 ## Uninstallation
 
-well just delete the MaterialSymbols and MaterialSymbols RRS Compat folder, as they contain all of the scripts and various things that the package and addon utilize.
+### 2.0.0+ uninstallation
+
+well just delete the `MaterialSymbols + RRS folder`, it has all of the scripts and various stuff in there!
+
+### 1.0.0 uninstallation
+
+well just delete the `MaterialSymbols` and `MaterialSymbols RRS Compat` folder, as they contain all of the scripts and various things that the package and addon utilize.
 
 ## FAQ
 
@@ -42,10 +48,6 @@ As mentioned in Usage, this just sets data to a default unity component, and doe
 ### What is Material Symbol, and why is it an option in my hierarchy?
 
 This is created by the original package, and since it uses a standalone script, will not function with Rec Room Studio properly.
-
-### Why can't I set the fill on the icon?
-
-Since this plugin takes stuff from MaterialSymbols, but doesnt have everything, if you would like to change between the filled and not filled variations of the font, please change the font on the text component.
 
 ### The fonts don't fit the style of my game. Do you have more styles?
 
